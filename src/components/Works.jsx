@@ -35,7 +35,7 @@ const ProjectCard = ({
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open("potato", "_blank")}
+              onClick={() => window.open("https://local-tik-tac-toe.netlify.app/")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
