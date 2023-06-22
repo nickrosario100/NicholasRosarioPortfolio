@@ -18,6 +18,14 @@ return (
         castShadow
         shadow-mapSize={1024}
       />
+      <spotLight
+        position={[0, -30, 0]}
+        angle={0.12}
+        penumbra={1}
+        intensity={1}
+        castShadow
+        shadow-mapSize={1024}
+      />
       <pointLight intensity={2} />
       <primitive
         object={computer.scene}
