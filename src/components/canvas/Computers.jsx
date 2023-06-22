@@ -22,7 +22,23 @@ return (
         position={[0, -30, 0]}
         angle={0.12}
         penumbra={1}
-        intensity={1}
+        intensity={0.1}
+        castShadow
+        shadow-mapSize={1024}
+      />
+      <spotLight
+        position={[-20, 0, 10]}
+        angle={0.12}
+        penumbra={1}
+        intensity={0.5}
+        castShadow
+        shadow-mapSize={1024}
+      />
+      <spotLight
+        position={[6, -50, -50]}
+        angle={0.12}
+        penumbra={1}
+        intensity={0.1}
         castShadow
         shadow-mapSize={1024}
       />
