@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Html, useProgress } from "@react-three/drei";
 
 const CanvasLoader = () => {
@@ -30,6 +31,39 @@ const CanvasLoader = () => {
 };
 
 export default CanvasLoader;
+=======
+import { Html, useProgress } from "@react-three/drei";
+
+const CanvasLoader = () => {
+  const { progress } = useProgress();
+  return (
+    <Html
+      as='div'
+      center
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "column",
+      }}
+    >
+      <span className='canvas-loader'></span>
+      <p
+        style={{
+          fontSize: 14,
+          color: "#F1F1F1",
+          fontWeight: 800,
+          marginTop: 40,
+        }}
+      >
+        {progress.toFixed(2)}%
+      </p>
+    </Html>
+  );
+};
+
+export default CanvasLoader;
+>>>>>>> 1e8477bf1b345131d2d685b44a9eb565e25e8300
 =======
 import { Html, useProgress } from "@react-three/drei";
 
