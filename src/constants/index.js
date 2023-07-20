@@ -10,13 +10,15 @@ import {
   nodejs,
   git,
   meta,
-  starbucks, 
-  tesla,
   worldPrint,
   shopify,
   carrent,
-  threejs,
+  yellowbrick,
+  wp
+
 } from "../assets";
+
+
 
 export const navLinks = [
   {
@@ -65,10 +67,6 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -89,20 +87,24 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Freelance Web Developer",
-    company_name: "Self Employed",
+    title: "Full Stack Software Engineer",
+    company_name: "Yellow Brick Financial",
     icon: shopify,
     iconBg: "#383E56",
-    date: "May 2023 - Current",
+    date: "April 2023 - Current",
     points: [
-      "Worked as a freelance software developer, collaborating with clients remotely to develop custom web applications and websites.",
-      "Utilized JavaScript, React, .NET, C#, CSS, and SQL to develop scalable and efficient solutions tailored to client requirements.",
-      "Communicated effectively with clients to understand their needs, provide regular progress updates, and ensure project milestones were met.",
-      "Demonstrated strong problem-solving skills in identifying and resolving technical issues, ensuring client satisfaction.",
+      "Yellowbrick Financial is a reputable company that offers a range of valuable services to its clients, including life insurance, 401k plans, annuities, and financial planning.",
+      "Proficient in employing front-end development principles and techniques, including expert knowledge of userinterface design, responsive design strategies, and accessibility best practices to create visually appealing,mobile-friendly, and inclusive web experiences.",
+      "Developed the locations section of a web application using SQL for database management, .NET for server-side functionality, and JavaScript, HTML, and React for creating dynamic and interactive user interfaces.",
+      "Developed RESTful APIs using .NET Core framework, providing robust and scalable backend services for web applications",
+      "Designed and implemented SQL tables and stored procedures, optimizing database performance and enhancing data retrieval and manipulation processes",
+      "Practiced Agile methodologies, including daily stand-ups, code review sessions, and code talks, to foster collaboration, ensure code quality, and drive continuous improvement throughout the development process.",
+      "Proficient in source control management using Git and GitHub, ensuring version control, branch management, and seamless collaboration among team members for efficient and organized code development.",
+      "Collaborated with the team to create and refactor components, optimizing performance and ensuring seamless operation for both administrative and student users."
     ],
   },
   {
-    title: "Cannon Crew Member",
+    title: "U.S. Military",
     company_name: "Active Army",
     icon: meta,
     iconBg: "#E6DEDD",
@@ -165,7 +167,7 @@ const projects = [
       "Web-based platform that allows you to play eveyones favorite game locally.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
@@ -178,7 +180,81 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://local-tik-tac-toe.netlify.app/",
+  },
+  {
+    name: "Yellow Brick Financial",
+    description:
+      "Yellowbrick Financial is a reputable company that offers a range of valuable services to its clients, including life insurance, 401k plans, annuities, and financial planning.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: ".NET",
+        color: "white-text-gradient",
+      },
+      {
+        name: "C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: yellowbrick,
+    source_code_link: "https://yellowbrickfinancial.com/",
+  },
+  {
+    name: "World Print",
+    description:
+      "Integrated system empowering users to effortlessly unleash their creativity with their very own shirt designs and create and save their unique work.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: ".NET",
+        color: "white-text-gradient",
+      },
+      {
+        name: "C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wp,
+    source_code_link: "https://yellowbrickfinancial.com/",
   },
 ];
 
