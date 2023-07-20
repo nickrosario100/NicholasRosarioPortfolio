@@ -15,6 +15,8 @@ import reactjs from "./tech/reactjs.png";
 import threejs from "./tech/threejs.svg";
 import carrent from "./carrent.png";
 import nodejs from "./tech/nodejs.png"
+import wp from "./wp.png"
+import yellowbrick from "./yellowbrick.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -49,4 +51,6 @@ export {
   tesla,
   worldPrint,
   carrent,
+  wp,
+  yellowbrick
 };
