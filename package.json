@@ -1,12 +1,13 @@
 {
   "homepage": "http://nickrosario100.github.io/NicholasRosarioPortfolio",
+  "name":"my-portfolio",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
