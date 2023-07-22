@@ -1,3 +1,4 @@
+import { s } from "maath/dist/misc-7d870b3c.esm";
 import {
   mobile,
   backend,
@@ -9,13 +10,15 @@ import {
   reactjs,
   nodejs,
   git,
-  meta,
+  armylogo,
   worldPrint,
-  shopify,
-  carrent,
+  yellowbricklogo,
   yellowbrick,
-  wp
-
+  wp,
+  sql,
+  net,
+  csharp,
+  tiktaktoe
 } from "../assets";
 
 
@@ -71,10 +74,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "World Print",
-    icon: worldPrint,
-  },
+
   {
     name: "Node JS",
     icon: nodejs,
@@ -83,13 +83,25 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  {
+    name:"SQL",
+    icon:sql,
+  },
+  {
+    name:".NET",
+    icon:net,
+  },
+  {
+    name:"csharp",
+    icon:csharp,
+  }
 ];
 
 const experiences = [
   {
     title: "Full Stack Software Engineer",
     company_name: "Yellow Brick Financial",
-    icon: shopify,
+    icon: yellowbricklogo,
     iconBg: "#383E56",
     date: "April 2023 - Current",
     points: [
@@ -106,7 +118,7 @@ const experiences = [
   {
     title: "U.S. Military",
     company_name: "Active Army",
-    icon: meta,
+    icon: armylogo,
     iconBg: "#E6DEDD",
     date: "January 2019 - May 2023",
     points: [
@@ -133,32 +145,32 @@ const experiences = [
   },
 ];
 
-// const testimonials = [
-//   {
-//     testimonial:
-//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-//     name: "Sara Lee",
-//     designation: "CFO",
-//     company: "Acme Co",
-//     image: "https://randomuser.me/api/portraits/women/4.jpg",
-//   },
-//   {
-//     testimonial:
-//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-//     name: "Chris Brown",
-//     designation: "COO",
-//     company: "DEF Corp",
-//     image: "https://randomuser.me/api/portraits/men/5.jpg",
-//   },
-//   {
-//     testimonial:
-//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-//     name: "Lisa Wang",
-//     designation: "CTO",
-//     company: "456 Enterprises",
-//     image: "https://randomuser.me/api/portraits/women/6.jpg",
-//   },
-// ];
+const testimonials = [
+  {
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "Sara Lee",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+];
 
 const projects = [
   {
@@ -179,7 +191,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: tiktaktoe,
     source_code_link: "https://local-tik-tac-toe.netlify.app/",
   },
   {
