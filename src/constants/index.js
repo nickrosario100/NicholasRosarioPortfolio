@@ -150,7 +150,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Nicholas is a highly skilled senior software engineer who consistently delivers exceptional results. Their technical expertise and problem-solving abilities are top-notch, making them an invaluable asset to any team.",
+      "Nicholas is a highly skilled full stack software engineer who consistently delivers exceptional results. His technical expertise and problem-solving abilities are top-notch, making them an invaluable asset to any team.",
     name: "Larry Lemons",
     designation: "Senior Software Engineer",
     company: "Yellow Brick Financial",
@@ -158,7 +158,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've had the pleasure of working with Nicholas, and I'm continually impressed by their dedication and leadership as a senior software engineer. Their guidance and mentorship have been instrumental in the success of our projects.",
+      "I've had the pleasure of working with Nicholas, and I'm continually impressed by their dedication and leadership as a full stack software engineer. His guidance and mentorship have been instrumental in the success of our projects.",
     name: "Victor Ibasco",
     designation: "Senior Software Engineer",
     company: "World Print",
@@ -166,7 +166,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Nicholas is a standout senior software engineer with a keen eye for detail. Their ability to architect robust solutions and communicate complex concepts makes them a true asset to any organization.",
+      "Nicholas is a standout full stack software engineer with a keen eye for detail. His ability to architect robust solutions and communicate complex concepts makes them a true asset to any organization.",
     name: "Sean Humphreys",
     designation: "Full Stack Software Engineer",
     company: "Yellow Brick Financial",
