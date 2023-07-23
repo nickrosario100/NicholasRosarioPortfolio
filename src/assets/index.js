@@ -26,6 +26,10 @@ import yellowbricklogo from "./company/yellowbricklogo.png";
 import worldPrint from "./company/worldPrint.png";
 import tiktaktoe from "./tiktaktoe.png"
 
+import larry from "./testimonials/larry.png"
+import victor from "./testimonials/victor.png"
+import sean from "./testimonials/sean.png"
+
 
 
 
@@ -55,5 +59,8 @@ export {
   net,
   csharp,
   yellowbricklogo,
-  tiktaktoe
+  tiktaktoe,
+  larry,
+  victor,
+  sean
 };

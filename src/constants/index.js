@@ -1,4 +1,3 @@
-import { s } from "maath/dist/misc-7d870b3c.esm";
 import {
   mobile,
   backend,
@@ -18,7 +17,10 @@ import {
   sql,
   net,
   csharp,
-  tiktaktoe
+  tiktaktoe,
+  larry,
+  victor,
+  sean
 } from "../assets";
 
 
@@ -148,27 +150,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Nicholas is a highly skilled senior software engineer who consistently delivers exceptional results. Their technical expertise and problem-solving abilities are top-notch, making them an invaluable asset to any team.",
+    name: "Larry Lemons",
+    designation: "Senior Software Engineer",
+    company: "Yellow Brick Financial",
+    image: larry,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've had the pleasure of working with Nicholas, and I'm continually impressed by their dedication and leadership as a senior software engineer. Their guidance and mentorship have been instrumental in the success of our projects.",
+    name: "Victor Ibasco",
+    designation: "Senior Software Engineer",
+    company: "World Print",
+    image: victor,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Nicholas is a standout senior software engineer with a keen eye for detail. Their ability to architect robust solutions and communicate complex concepts makes them a true asset to any organization.",
+    name: "Sean Humphreys",
+    designation: "Full Stack Software Engineer",
+    company: "Yellow Brick Financial",
+    image: sean,
   },
 ];
 
@@ -270,4 +272,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, testimonials, projects };
