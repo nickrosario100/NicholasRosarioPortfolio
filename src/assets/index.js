@@ -32,7 +32,7 @@ import victor from "./testimonials/victor.png"
 import sean from "./testimonials/sean.png"
 
 import linkedIn from "./contacts/linkedIn.png"
-import ghLogo from "./contacts/ghLogo.png"
+import ghLogo from "./contacts/ghlogo.png"
 import stack from "./contacts/stack.png"
 import facebook from "./contacts/facebook.png"
 
