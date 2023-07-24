@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import nlogo from "./nlogo.png"
  
 
 import css from "./tech/css.png";
@@ -29,6 +30,11 @@ import tiktaktoe from "./tiktaktoe.png"
 import larry from "./testimonials/larry.png"
 import victor from "./testimonials/victor.png"
 import sean from "./testimonials/sean.png"
+
+import linkedIn from "./contacts/linkedIn.png"
+import ghLogo from "./contacts/ghLogo.png"
+import stack from "./contacts/stack.png"
+import facebook from "./contacts/facebook.png"
 
 
 
@@ -62,5 +68,10 @@ export {
   tiktaktoe,
   larry,
   victor,
-  sean
+  sean,
+  linkedIn,
+  ghLogo,
+  stack,
+  facebook,
+  nlogo
 };
