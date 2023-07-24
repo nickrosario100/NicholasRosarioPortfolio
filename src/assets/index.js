@@ -8,7 +8,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import nlogo from "./nlogo.png"
  
-
 import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -16,16 +15,19 @@ import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
 import threejs from "./tech/threejs.svg";
 import nodejs from "./tech/nodejs.png"
-import wp from "./wp.png"
-import yellowbrick from "./yellowbrick.png"
+
 import sql from "./tech/SQL.png"
 import net from "./tech/NET.png"
 import csharp from "./tech/csharp.png"
 
+import tiktaktoe from "./tiktaktoe.png"
+import yellowbrick from "./yellowbrick.png"
+import wp from "./wp.png"
+
 import armylogo from "./company/armylogo.png";
 import yellowbricklogo from "./company/yellowbricklogo.png";
 import worldPrint from "./company/worldPrint.png";
-import tiktaktoe from "./tiktaktoe.png"
+import up from "./company/up.png"
 
 import larry from "./testimonials/larry.png"
 import victor from "./testimonials/victor.png"
@@ -73,5 +75,6 @@ export {
   ghLogo,
   stack,
   facebook,
-  nlogo
+  nlogo,
+  up
 };

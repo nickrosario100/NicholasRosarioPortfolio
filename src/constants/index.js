@@ -20,7 +20,8 @@ import {
   tiktaktoe,
   larry,
   victor,
-  sean
+  sean,
+  up
 } from "../assets";
 
 
@@ -143,6 +144,19 @@ const experiences = [
       "Elevated UX to new heights, data retrieval and management from the Pixabay API seamlessly empowered end-users with the ability to effortlessly add and personalize unique clipart, forging an unforgettable interactive journey.",
       "Operated with seamless precision, leveraging the power of GitHub, Git, and Trello, to establish a highly-functional system of source control and work-flow management.",
       "Implemented sorting, ﬁltering, routing, and mapping of components enabling users to: Add and edit clipart from a third-party API or create meaningful text to add to their shirt designs.",
+    ],
+  },
+  {
+    title: "Full Stack Software Engineer",
+    company_name: "Upwork Freelance",
+    icon: up,
+    iconBg: "#32cd32",
+    date: "January 2015 - May 2018",
+    points: [
+      "Proficient in employing front-end development principles and techniques, including expert knowledge of user interface design, responsive design strategies, and accessibility best practices to create visually appealing, mobile-friendly, and inclusive web experiences.",
+      "Developed various websites using HTML, CSS, .Net, C#, React, SQL and JavaScript.",
+      "Supported numerous projects incorporating both front and back-end work.",
+      "Integrated third-party APIs and services to enhance application capabilities and user experiences.",
     ],
   },
 ];
