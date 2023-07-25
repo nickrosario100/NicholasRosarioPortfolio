@@ -21,7 +21,8 @@ import {
   larry,
   victor,
   sean,
-  up
+  up,
+  blackjack
 } from "../assets";
 
 
@@ -282,6 +283,43 @@ const projects = [
       },
     ],
     image: wp,
+    source_code_link: "https://yellowbrickfinancial.com/",
+  },
+  {
+    name: "Black Jack (Mobile & Web App)",
+    description:
+      "Blackjack, also known as twenty-one, is a card game where the goal is to have a hand value higher than the dealer's without exceeding 21.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: ".NET",
+        color: "white-text-gradient",
+      },
+      {
+        name: "C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: blackjack,
     source_code_link: "https://yellowbrickfinancial.com/",
   },
 ];

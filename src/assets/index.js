@@ -23,6 +23,7 @@ import csharp from "./tech/csharp.png"
 import tiktaktoe from "./tiktaktoe.png"
 import yellowbrick from "./yellowbrick.png"
 import wp from "./wp.png"
+import blackjack from "./blackjack.png"
 
 import armylogo from "./company/armylogo.png";
 import yellowbricklogo from "./company/yellowbricklogo.png";
@@ -76,5 +77,6 @@ export {
   stack,
   facebook,
   nlogo,
-  up
+  up,
+  blackjack
 };
