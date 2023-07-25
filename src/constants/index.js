@@ -190,27 +190,7 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Tic-Tac-Toe",
-    description:
-      "Web-based platform that allows you to play eveyones favorite game locally.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tiktaktoe,
-    source_code_link: "https://local-tik-tac-toe.netlify.app/",
-  },
+ 
   {
     name: "Yellow Brick Financial",
     description:
@@ -321,6 +301,26 @@ const projects = [
     ],
     image: blackjack,
     source_code_link: "https://yellowbrickfinancial.com/",
+  }, {
+    name: "Tic-Tac-Toe",
+    description:
+      "Web-based platform that allows you to play eveyones favorite game locally.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tiktaktoe,
+    source_code_link: "https://local-tik-tac-toe.netlify.app/",
   },
 ];
 
